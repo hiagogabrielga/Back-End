@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste para js</title>
+    <style>
+        body{
+            background-color: rgb(143, 14, 218);
+            color: white;
+            font: normal 30px Arial;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!--<h1>olá mundo</h1> -->
+    <!--<p>Já me livrei da maldição</p> comentario!-->
+    <script>
+        //window.alert('Meu primeiro alerta')//janela com um alerta
+        //window.confirm('Está gostando de treinar?')//apresenta uma janela com ok e cancelar
+        var nome = window.prompt('Qual o seu nome?')// pergunta seu nome
+        //window.alert('É um prazer te conhecer, ' + nome + '!');
+        var n1 = Number(window.prompt('Digite o numero 1: ')); //está recebendo um valor em strig e convertendo para numero
+        var n2 = Number(window.prompt('Digite o numero 2: ')); //está recebendo um valor em strig e convertendo para numero
+        var s = n1 + n2;// Está somandio os 2 valores
+        //window.alert('A soma de ' + n1 + ' + ' + n2 + ' = ' + s); //jeito com 
+        //window.alert(`A soma de ${n1} + ${n2} =  ${s}`); //Jeito com ${}
+        document.write(`${nome.toUpperCase()}, ${nome.toLowerCase()},  Seu nome tem ${nome.length} letras.`);//Mostra o nome digitado em caixa alta, dps em caixa baixa e dps nome.length quantas letras tem seu nome 
+        document.write(`Você tem ${s.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`) // Resultado R$ 28,00
+    </script>
+    
+</body>
+</html>
