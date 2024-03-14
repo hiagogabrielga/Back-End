@@ -1,3 +1,5 @@
+/*Peça ao usuário para inserir um número de mês (1 a 12) e exiba o nome 
+do mês. */
 import coletarDados from "readline-sync";
 
 let mes = coletarDados.questionInt("Digite o número do mês: ")
