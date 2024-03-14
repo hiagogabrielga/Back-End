@@ -8,14 +8,29 @@ Salário <= R$ 4.660,00 = 22.5%
 Salário > R$ 4.660,00 = 27.5% */
 import cd from "readline-sync"
 
-for (let cont = 1; cont < 10; cont++) {
-    let nome = cd.question("Digite seu nome: ")
-    let salario = cd.questionInt("Digite seu sálario bruto: ")
-    
-    if (salario <= 2.100) {
-        console.log("Sei la")
-    } else {
-        
-    }
+let mensagemcompleta = "\nLista de quem e quanto deverá pagar em seu imposto de renda:"
 
+for (let cont = 1; cont <= 10; cont++) {
+    let nome = cd.question("\nDigite seu nome: ")
+    let salario = cd.questionFloat("Digite seu sálario bruto: ").toFixed(2)
+    
+    let imposto = 0
+    
+    if (salario <= 2100) {
+        mensagemcompleta += `\n${nome} está isento`
+    } else if (salario <= 2800) {
+        imposto = salario * 0.075
+        mensagemcompleta += `\n${nome} deverá pagar R$ ${imposto.toFixed(2)}`
+    } else if (salario <= 3750) {
+        imposto = salario * 0.15
+        mensagemcompleta += `\n${nome} deverá pagar R$ ${imposto.toFixed(2)}`
+    } else if (salario <= 4660) {
+        imposto = salario * 0.225
+        mensagemcompleta += `\n${nome} deverá pagar R$ ${imposto.toFixed(2)}`
+    } else if (salario > 4660) {
+        imposto = salario * 0.275
+        mensagemcompleta += `\n${nome} deverá pagar R$ ${imposto.toFixed(2)}`
+    }
 }
+
+console.log(mensagemcompleta)
