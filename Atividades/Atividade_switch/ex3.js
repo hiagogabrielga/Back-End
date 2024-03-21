@@ -1,3 +1,7 @@
+/*Implementar um programa que simule uma calculadora. O usuário deverá 
+informar dois valores e a operação desejada.
+Com auxílio de um switch deve ser computado e mostrado o resultado da 
+operação. */
 import coletarDados from "readline-sync";
 
 let numero01 = coletarDados.questionInt('Digite número 1: ');

@@ -1,3 +1,5 @@
+/* Escreva um programa que peça ao usuário para digitar um número e, em seguida, 
+imprima a tabuada desse número usando um loop while. */
 import cd from "readline-sync"
 
 let numero = cd.questionInt("Digite um número par tábuada: ");
