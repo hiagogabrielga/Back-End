@@ -4,6 +4,7 @@ var apartamento = {
     tipo: "apartamento",
     endereco: "Avenida Principal, 456 - Centro",
     andar: 7,
+    
 };
 console.log(`${apartamento.tipo} com ${apartamento.quarto} quartos, localizado no ${apartamento.andar}º andar da ${apartamento.endereco}.`);
 
