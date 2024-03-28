@@ -14,3 +14,5 @@ console.log("\nForma 2")
 for (let letra of string) {
     console.log(letra)
 }
+
+
