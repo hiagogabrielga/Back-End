@@ -7,6 +7,7 @@ let palavraSeparada = "";
 for (let letra of string) {
     palavraSeparada += letra+"-"
 }
+
 palavraSeparada = palavraSeparada.slice(0, -1);
 console.log(palavraSeparada)
 
