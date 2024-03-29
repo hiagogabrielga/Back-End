@@ -3,8 +3,8 @@
 let numero1 = 0;
 let numero2 = 1;
 let soma;
-
-for (let sequencia = 1; sequencia <= 20; sequencia++) {
+console.log(`O 1º da sequencia é: ${numero1}`)
+for (let sequencia = 2; sequencia <= 20; sequencia++) {
     console.log(`O ${sequencia}º da sequencia é: ${numero2}`);
     soma = numero1 + numero2;
     numero1 = numero2;
