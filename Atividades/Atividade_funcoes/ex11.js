@@ -24,4 +24,5 @@ let c = input.questionFloat("Digite o seu capital inicial: ")
 let i = input.questionInt("Digite a taxa de juros, em percentual: ")
 let t = input.questionInt("Digite o tempo de investimento em meses: ")
 
+
 console.log(retornoInvestimento(c, i, t));
