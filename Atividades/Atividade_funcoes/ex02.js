@@ -21,6 +21,7 @@ let resultado = (numero) => ;
 
 console.log(resultado(valorNumerico));
 */
+
 /*Expressão de função
 const definidor = function(numero) {
     return `${numero[numero.length - 1]%2 == 0 ? "Par" : "ímpar"}`
