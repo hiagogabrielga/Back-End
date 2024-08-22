@@ -4,7 +4,8 @@ const app = express();
 let data = new Date();
 
 app.get('/', (req, res) => {
-    res.send('Hello word!');
+    let pessoa = ({nome: 'João Pedro Bento De Andrade', atributos: 'Ele é Legal', disse: 'Hello word!'})
+    res.json(pessoa);
 });
 
 app.listen(8080, () => {

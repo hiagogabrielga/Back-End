@@ -1,6 +1,6 @@
 let dados = require('./dados');
 
-function retornarMensagemDoDia(dia) {
-    return dados.frases[dia - 1];
+function retornarMensagemDoDia() {
+    return dados.frases[ Math.floor(Math.random() * (30)) +1];
 };
 exports.retornarMensagemDoDia = retornarMensagemDoDia;

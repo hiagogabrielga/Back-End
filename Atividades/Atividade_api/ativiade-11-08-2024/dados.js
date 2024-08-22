@@ -14,7 +14,7 @@ frases = [
     'Muitas das grandes realizações do mundo foram feitas por homens cansados e desanimados que continuaram trabalhando.',
     'Ter sorte é ter a força para não se acomodar e lutar para que o fruto do seu trabalho tenha sucesso.',
     'Eu acredito demais na sorte. E tenho constatado que, quanto mais duro eu trabalho, mais sorte eu tenho.',
-    'Tente a sua sorte! A vida é feita de oportunidades. O homem que vai mais longe é quase sempre aquele que tem coragem de arriscar.',
+    'Tente a sua sorte! A vida é feita de oportunidades. O homem que vai mais longe é quase sempre aquele que tem coragem de arriscar',
     'O verdadeiro homem mede a sua força, quando se defronta com o obstáculo.',
     'Você precisa fazer aquilo que pensa que não é capaz de fazer.',
     'A vida é para quem topa qualquer parada. Não para quem para em qualquer topada.',
